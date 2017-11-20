@@ -1,4 +1,4 @@
-// app/lib/logstub.js
+// index.js
 /* eslint no-unused-vars: "off" */
 
 // This class exists to stub out the logger when it is not included
