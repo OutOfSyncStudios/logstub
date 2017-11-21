@@ -32,6 +32,24 @@ class LogStub {
   error(...args) {
     return;
   }
+
+  // Log4J levels
+  fatal(...args) {
+    return;
+  }
+
+  trace(...args) {
+    return;
+  }
+
+  all(...args) {
+    return;
+  }
+
+  // Other logging library levels
+  critical(...args) {
+    return;
+  }
 }
 
 module.exports = LogStub;
