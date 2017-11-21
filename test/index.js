@@ -38,4 +38,24 @@ describe('logstub', () => {
   it('error', () => {
     test.assert(logger.error() === undefined);
   });
+
+  // Log4J errors
+  it('fatal', () => {
+    test.assert(logger.error() === undefined);
+  });
+
+  it('trace', () => {
+    test.assert(logger.error() === undefined);
+  });
+
+  it('all', () => {
+    test.assert(logger.error() === undefined);
+  });
+
+  // Critical
+  it('critical', () => {
+    test.assert(logger.error() === undefined);
+  });
+
+
 });
