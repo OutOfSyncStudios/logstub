@@ -1,6 +1,7 @@
 # logstub
 
 [![NPM](https://nodei.co/npm/logstub.png?downloads=true)](https://nodei.co/npm/logstub/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMediaXPost%2Flogstub.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMediaXPost%2Flogstub?ref=badge_shield)
 
 [![Actual version published on npm](http://img.shields.io/npm/v/logstub.svg)](https://www.npmjs.org/package/logstub)
 [![Travis build status](https://travis-ci.org/MediaXPost/logstub.svg?branch=master)](https://www.npmjs.org/package/logstub)
@@ -40,3 +41,7 @@ $ npm install logstub
 ## API
 
 The logging stub will handle method calls for `log`, `silly`, `debug`, `info`, `verbose`, `warn`, `error`, `critical`, `fatal`, `trace`, and `all` with any number of parameters making it compatible for stubbing general logging from a number of popular logging libraries such as [Winston](https://www.npmjs.com/package/winston), [Log4JS](https://www.npmjs.com/package/log4js), and [Bunyan](https://www.npmjs.com/package/bunyan).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMediaXPost%2Flogstub.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMediaXPost%2Flogstub?ref=badge_large)
