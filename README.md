@@ -1,7 +1,6 @@
 # logstub
 
 [![NPM](https://nodei.co/npm/logstub.png?downloads=true)](https://nodei.co/npm/logstub/)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMediaXPost%2Flogstub.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMediaXPost%2Flogstub?ref=badge_shield)
 
 [![Actual version published on npm](http://img.shields.io/npm/v/logstub.svg)](https://www.npmjs.org/package/logstub)
 [![Travis build status](https://travis-ci.org/MediaXPost/logstub.svg?branch=master)](https://www.npmjs.org/package/logstub)
@@ -9,6 +8,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/chronosis/logstub?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/logstub&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/chronosis/logstub?utm_source=github.com&utm_medium=referral&utm_content=MediaXPost/logstub&utm_campaign=Badge_Coverage)
 [![Dependencies badge](https://david-dm.org/MediaXPost/logstub/status.svg)](https://david-dm.org/MediaXPost/logstub?view=list)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMediaXPost%2Flogstub.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMediaXPost%2Flogstub?ref=badge_shield)
 
 logstub is a basic library to stub logging calls when an external logger is expected to be passed to your libraries and applications.
 
