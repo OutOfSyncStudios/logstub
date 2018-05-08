@@ -1,4 +1,5 @@
-const test = require('unit.js');
+const chai = require('chai');
+const expect = chai.expect;
 
 describe('logstub', () => {
   const LogStub = require('..');
@@ -8,54 +9,53 @@ describe('logstub', () => {
     const MyModule = require('..');
     const myClass = new MyModule();
 
-    test.assert(myClass instanceof LogStub);
+    expect(myClass).to.be.instanceof(LogStub);
   });
 
   it('Log', () => {
-    test.assert(logger.log() === undefined);
+    expect(logger.log()).to.be.equal(undefined);
   });
 
   it('silly', () => {
-    test.assert(logger.silly() === undefined);
+    expect(logger.silly()).to.be.equal(undefined);
   });
 
   it('debug', () => {
-    test.assert(logger.debug() === undefined);
+    expect(logger.debug()).to.be.equal(undefined);
   });
 
   it('verbose', () => {
-    test.assert(logger.verbose() === undefined);
+    expect(logger.verbose()).to.be.equal(undefined);
   });
 
   it('info', () => {
-    test.assert(logger.info() === undefined);
+    expect(logger.info()).to.be.equal(undefined);
   });
 
   it('warn', () => {
-    test.assert(logger.warn() === undefined);
+    expect(logger.warn()).to.be.equal(undefined);
   });
 
   it('error', () => {
-    test.assert(logger.error() === undefined);
+    expect(logger.error()).to.be.equal(undefined);
   });
 
   // Log4J errors
   it('fatal', () => {
-    test.assert(logger.fatal() === undefined);
+    expect(logger.fatal()).to.be.equal(undefined);
   });
 
   it('trace', () => {
-    test.assert(logger.trace() === undefined);
+    expect(logger.trace()).to.be.equal(undefined);
   });
 
   it('all', () => {
-    test.assert(logger.all() === undefined);
+    expect(logger.all()).to.be.equal(undefined);
   });
 
   // Critical
   it('critical', () => {
-    test.assert(logger.critical() === undefined);
+    expect(logger.critical()).to.be.equal(undefined);
   });
-
 
 });
