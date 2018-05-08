@@ -1,14 +1,11 @@
 language: node_js
 node_js:
-- node
+- 9
 before_script:
 - npm install -g gulp-cli
-- npm install -g license-cli
 script:
 - gulp
 - npm run coverage
-- license-cli auth $FOSSA_API_TOKEN
-- license-cli scan -r $TRAVIS_COMMIT || true
 cache:
   directories:
   - node_modules
