@@ -45,4 +45,4 @@ The logging stub will handle method calls for `log`, `silly`, `debug`, `info`, `
 # [License](#license)
 <a name="license"></a>
 
-Copyright (c) 2017, 2018 Jay Reardon -- Licensed under the MIT license.
+Copyright (c) 2017, 2018, 2019 Jay Reardon -- Licensed under the MIT license.
