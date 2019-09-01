@@ -5,8 +5,8 @@
 [![Actual version published on npm](http://img.shields.io/npm/v/logstub.svg)](https://www.npmjs.org/package/logstub)
 [![Travis build status](https://travis-ci.org/OutOfSyncStudios/logstub.svg?branch=master)](https://www.npmjs.org/package/logstub)
 [![Total npm module downloads](http://img.shields.io/npm/dt/logstub.svg)](https://www.npmjs.org/package/logstub)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/chronosis/logstub?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OutOfSyncStudios/logstub&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/chronosis/logstub?utm_source=github.com&utm_medium=referral&utm_content=OutOfSyncStudios/logstub&utm_campaign=Badge_Coverage)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/OutOfSyncStudios/logstub?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OutOfSyncStudios/logstub&amp;utm_campaign=Badge_Grade)
+[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/OutOfSyncStudios/logstub?utm_source=github.com&utm_medium=referral&utm_content=OutOfSyncStudios/logstub&utm_campaign=Badge_Coverage)
 [![Dependencies badge](https://david-dm.org/OutOfSyncStudios/logstub/status.svg)](https://david-dm.org/OutOfSyncStudios/logstub?view=list)
 
 logstub is a basic library to stub logging calls when an external logger is expected to be passed to your libraries and applications.
