@@ -16,11 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MediaXPost/logstub.git"
+    "url": "git+https://github.com/OutOfSyncStudios/logstub.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "log",
+    "logging",
     "stub",
+    "mock",
+    "mocking",
     "winston",
     "bunyan",
     "log4js"
@@ -28,19 +34,19 @@
   "author": "Jay Reardon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MediaXPost/logstub/issues"
+    "url": "https://github.com/OutOfSyncStudios/logstub/issues"
   },
-  "homepage": "https://github.com/MediaXPost/logstub#readme",
+  "homepage": "https://github.com/OutOfSyncStudios/logstub#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "codacy-coverage": "^3.4.0",
-    "eslint": "^5.12.0",
-    "gulp": "^4.0.0",
-    "gulp-eslint": "^5.0.0",
-    "gulp-mocha": "^6.0.0",
-    "gulp-prettier": "^2.0.0",
-    "mocha": "^5.2.0",
-    "nyc": "^13.1.0",
-    "prettier": "^1.15.3"
+    "eslint": "^6.3.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-mocha": "^7.0.1",
+    "gulp-prettier": "^2.1.0",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "prettier": "^1.18.2"
   }
 }
