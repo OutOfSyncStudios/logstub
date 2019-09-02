@@ -33,6 +33,59 @@ class LogStub {
     return;
   }
 
+  // Console specific
+  assert(...args) {
+    return;
+  }
+
+  clear() {
+    return;
+  }
+
+  count(...args) {
+    return;
+  }
+
+  countReset(...args) {
+    return;
+  }
+
+  dir(...args) {
+    return;
+  }
+
+  dirxml(...args) {
+    return;
+  }
+
+  group(...args) {
+    return;
+  }
+
+  groupCollapsed(...args) {
+    return;
+  }
+
+  groupEnd(...args) {
+    return;
+  }
+
+  table(...args) {
+    return;
+  }
+
+  time(...args) {
+    return;
+  }
+
+  timeEnd(...args) {
+    return;
+  }
+
+  timeLog(...args) {
+    return;
+  }
+
   // Log4J levels
   fatal(...args) {
     return;
@@ -49,6 +102,15 @@ class LogStub {
   // Other logging library levels
   critical(...args) {
     return;
+  }
+
+  // bunyan specific
+  level() {
+    return 30;
+  }
+
+  child() {
+    return this;
   }
 }
 

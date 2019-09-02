@@ -3,11 +3,11 @@
 [![NPM](https://nodei.co/npm/logstub.png?downloads=true)](https://nodei.co/npm/logstub/)
 
 [![Actual version published on npm](http://img.shields.io/npm/v/logstub.svg)](https://www.npmjs.org/package/logstub)
-[![Travis build status](https://travis-ci.org/MediaXPost/logstub.svg?branch=master)](https://www.npmjs.org/package/logstub)
+[![Travis build status](https://travis-ci.org/OutOfSyncStudios/logstub.svg?branch=master)](https://www.npmjs.org/package/logstub)
 [![Total npm module downloads](http://img.shields.io/npm/dt/logstub.svg)](https://www.npmjs.org/package/logstub)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/chronosis/logstub?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/logstub&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/chronosis/logstub?utm_source=github.com&utm_medium=referral&utm_content=MediaXPost/logstub&utm_campaign=Badge_Coverage)
-[![Dependencies badge](https://david-dm.org/MediaXPost/logstub/status.svg)](https://david-dm.org/MediaXPost/logstub?view=list)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/OutOfSyncStudios/logstub?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OutOfSyncStudios/logstub&amp;utm_campaign=Badge_Grade)
+[![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/5df4541beccd4014bc2c80e275b0bf21)](https://www.codacy.com/app/OutOfSyncStudios/logstub?utm_source=github.com&utm_medium=referral&utm_content=OutOfSyncStudios/logstub&utm_campaign=Badge_Coverage)
+[![Dependencies badge](https://david-dm.org/OutOfSyncStudios/logstub/status.svg)](https://david-dm.org/OutOfSyncStudios/logstub?view=list)
 
 logstub is a basic library to stub logging calls when an external logger is expected to be passed to your libraries and applications.
 
@@ -41,8 +41,12 @@ $ npm install logstub
 
 The logging stub will handle method calls for `log`, `silly`, `debug`, `info`, `verbose`, `warn`, `error`, `critical`, `fatal`, `trace`, and `all` with any number of parameters making it compatible for stubbing general logging from a number of popular logging libraries such as [Winston](https://www.npmjs.com/package/winston), [Log4JS](https://www.npmjs.com/package/log4js), and [Bunyan](https://www.npmjs.com/package/bunyan).
 
+It also supports all standard `console` methods.
+
 
 # [License](#license)
 <a name="license"></a>
 
-Copyright (c) 2017, 2018, 2019 Jay Reardon -- Licensed under the MIT license.
+Copyright (c) 2017, 2018, 2019 Jay Reardon
+Copyright (c) 2019 Out of Sync Studios
+Licensed under the MIT license.
