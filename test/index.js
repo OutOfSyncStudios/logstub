@@ -12,7 +12,7 @@ describe('logstub', () => {
     expect(myClass).to.be.instanceof(LogStub);
   });
 
-  it('Log', () => {
+  it('log', () => {
     expect(logger.log()).to.be.equal(undefined);
   });
 
@@ -58,4 +58,65 @@ describe('logstub', () => {
     expect(logger.critical()).to.be.equal(undefined);
   });
 
+  // Console
+  it('assert', () => {
+    expect(logger.assert()).to.be.equal(undefined);
+  });
+
+  it('clear', () => {
+    expect(logger.clear()).to.be.equal(undefined);
+  });
+
+  it('count', () => {
+    expect(logger.count()).to.be.equal(undefined);
+  });
+
+  it('countReset', () => {
+    expect(logger.countReset()).to.be.equal(undefined);
+  });
+
+  it('dir', () => {
+    expect(logger.dir()).to.be.equal(undefined);
+  });
+
+  it('dirxml', () => {
+    expect(logger.dirxml()).to.be.equal(undefined);
+  });
+
+  it('group', () => {
+    expect(logger.group()).to.be.equal(undefined);
+  });
+
+  it('groupCollapsed', () => {
+    expect(logger.groupCollapsed()).to.be.equal(undefined);
+  });
+
+  it('groupEnd', () => {
+    expect(logger.groupEnd()).to.be.equal(undefined);
+  });
+
+  it('table', () => {
+    expect(logger.table()).to.be.equal(undefined);
+  });
+
+  it('time', () => {
+    expect(logger.time()).to.be.equal(undefined);
+  });
+
+  it('timeEnd', () => {
+    expect(logger.timeEnd()).to.be.equal(undefined);
+  });
+
+  it('timeLog', () => {
+    expect(logger.timeLog()).to.be.equal(undefined);
+  });
+
+  // Bunyan
+  it('level', () => {
+    expect(logger.level()).to.be.equal(30);
+  });
+
+  it('child', () => {
+    expect(logger.child()).to.be.equal(logger);
+  });
 });
