@@ -29,7 +29,8 @@
     "mocking",
     "winston",
     "bunyan",
-    "log4js"
+    "log4js",
+    "console"
   ],
   "author": "Jay Reardon",
   "license": "MIT",
