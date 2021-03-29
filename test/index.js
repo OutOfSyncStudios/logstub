@@ -58,6 +58,10 @@ describe('logstub', () => {
     expect(logger.critical()).to.be.equal(undefined);
   });
 
+  it('http', () => {
+    expect(logger.http()).to.be.equal(undefined);
+  })
+
   // Console
   it('assert', () => {
     expect(logger.assert()).to.be.equal(undefined);
@@ -118,5 +122,18 @@ describe('logstub', () => {
 
   it('child', () => {
     expect(logger.child()).to.be.equal(logger);
+  });
+
+  // Stack Driver
+  it('emergency', () => {
+    expect(logger.emergency()).to.be.equal(undefined);
+  });
+
+  it('alert', () => {
+    expect(logger.alert()).to.be.equal(undefined);
+  });
+
+  it('notify', () => {
+    expect(logger.notify()).to.be.equal(undefined);
   });
 });
