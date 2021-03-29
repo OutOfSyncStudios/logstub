@@ -100,6 +100,10 @@ class LogStub {
   }
 
   // Other logging library levels
+  http(...args) {
+    return;
+  }
+
   critical(...args) {
     return;
   }
@@ -111,6 +115,19 @@ class LogStub {
 
   child() {
     return this;
+  }
+
+  // StackDriver logging levels
+  emergency(...args) {
+    return;
+  }
+
+  alert(...args) {
+    return;
+  }
+
+  notify(...args) {
+    return;
   }
 }
 
