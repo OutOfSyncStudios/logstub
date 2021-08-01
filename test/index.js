@@ -60,7 +60,7 @@ describe('logstub', () => {
 
   it('http', () => {
     expect(logger.http()).to.be.equal(undefined);
-  })
+  });
 
   // Console
   it('assert', () => {
