@@ -1,14 +1,12 @@
-const chai = require('chai');
-const expect = chai.expect;
+import { expect } from 'chai';
+import LogStub from '../index.js';
+import MyModule from '../index.js';
 
 describe('logstub', () => {
-  const LogStub = require('..');
   const logger = new LogStub();
 
   it('load', () => {
-    const MyModule = require('..');
     const myClass = new MyModule();
-
     expect(myClass).to.be.instanceof(LogStub);
   });
 

@@ -131,4 +131,4 @@ class LogStub {
   }
 }
 
-module.exports = LogStub;
+export default LogStub;
